@@ -15,5 +15,9 @@ body {
   flex-direction: column;
 }
 #showcase h1 {
-  font-size: 60px;
+  font-size: 40px;
+}
+#showcase img {
+  border-radius: 50%;
+  width: 100px;
 }
