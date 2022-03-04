@@ -22,9 +22,9 @@ body {
   width: 120px;
 }
 .button {
-  background-color: grey;
+  background-color: white;
   border: none;
-  color: white;
+  color: black;
   margin: 15px;
   padding: 15px 15px;
   text-decoration: none;
@@ -33,9 +33,9 @@ body {
   border-radius: 15px;
 }
 .button:hover {
-  background-color: white;
-  color: black;
-  box-shadow: 0 0 10px black;
+  background-color: grey;
+  color: white;
+  box-shadow: 0 0 10px yellowgreen;
 }
 .welcome {
   color: olivedrab;
