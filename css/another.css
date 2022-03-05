@@ -1,0 +1,36 @@
+body {
+  background-image: url(/images/images.jpeg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.form {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  margin: 50px;
+  background-color: rgb(142, 172, 119);
+  text-align: center;
+}
+.header {
+  text-decoration: underline;
+  color: darkgoldenrod;
+}
+input[type="number"],
+[type="radio"],
+[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h4 {
+  float: left;
+}
