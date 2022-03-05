@@ -4,8 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/another.css" />
     <title>login form</title>
   </head>
-  <body class="main"></body>
+  <body>
+    <form class="form" name="form" onsubmit="findDay()">
+      <h1 class="header">Anka Form</h1>
+      <label for="name">firstname</label>: <br />
+      <input type="text" name="firstname" placeholder="eg. John" /><br />
+      <label for="firstname">lastname</label>: <br />
+      <input type="text" name="lastname" placeholder="eg. Smith" /><br />
+      <label for="name">Year of Birth</label>
+      <input
+        type="number"
+        name="Year of Birth"
+        min="1920"
+        max="2022"
+        required
+        placeholder="Example: 1990"
+      />
+      <label for="name">Month of Birth</label>
+      <input
+        type="number"
+        name="Month of Birth"
+        min="1"
+        max="12"
+        placeholder="eg. 4...april=4 "
+        required
+      />
+      <label for="name">Date of Birth</label>
+      <input
+        type="number"
+        name="Date of Birth"
+        min="1"
+        max="31"
+        placeholder="eg. 12"
+        required
+      />
+      <div class="radio">
+        <h4>gender</h4>
+        <label>
+          <input type="radio" name="gender" value="Female" checked />
+          Female
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gender" value="Male" />
+          Male
+        </label>
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
