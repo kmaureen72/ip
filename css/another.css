@@ -13,11 +13,7 @@ form {
   position: absolute;
   margin: 50px;
   background-color: rgb(142, 172, 119);
-  text-align: center;
-}
-.header {
-  text-decoration: underline;
-  color: darkgoldenrod;
+  text-align: left;
 }
 input[type="number"],
 [type="radio"],
@@ -48,4 +44,8 @@ h4 {
   background-color: black;
   color: white;
   box-shadow: 0 0 10px yellowgreen;
+}
+p {
+  text-align: left;
+  display: block;
 }
