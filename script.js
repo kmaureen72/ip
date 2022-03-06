@@ -1,4 +1,4 @@
-let akan = function(y, m, d, g) {
+ let akan = function(y, m, d, g) {
     let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     let maleNames = ["Kwasi", "Kudwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var d = new Date(y, --m, d);
@@ -19,7 +19,9 @@ $( document ).ready(function() {
         var g = $( "#gender" ).val();
         var result = akan(y, m, d, g); 
         alert("Your akan name is: " + result);
+        alert(document.getElementById("name").value);
         //the .reset is for resetting the form after onsubmit
         document.getElementById("form").reset();
     });
 });
+
