@@ -1,5 +1,5 @@
 .box {
-  background-image: url(../images/images.jpeg);
+  background-image: url("../images/images.jpeg");
   background-size: cover;
   height: 100vh;
   background-position: center;
