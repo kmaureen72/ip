@@ -23,7 +23,7 @@ This application has a form which the user fills their details to get their Akan
 
 # Link to live website
 
-(url)
+[https://kmaureen72.github.io/ip/]
 
 ---
 
